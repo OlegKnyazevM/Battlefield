@@ -25,6 +25,7 @@ class Tank implements BattleUnitInterface
     public function setAttack(int $damage)
     {
         $this->attack = $damage;
+        die();
     }
 
 }
